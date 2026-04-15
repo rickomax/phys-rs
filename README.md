@@ -21,7 +21,7 @@ A higher-level Unity interface is in progress and will be published separately.
 - The generated wrapper code (trampolines, callbacks, etc.) has been ported from Rust to C.
 - All PhysX bindings are exposed through a flat C API.
 - A custom internal generator was used (based on the original), with additional generation of:
-  - struct offsets
+  - struct alignments
 
 ---
 
