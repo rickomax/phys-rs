@@ -51,7 +51,7 @@ Notes:
 - This PhysX version has some features stripped or altered. Refer to the usage of the `PX_DEPRECATED` macro in the source code for details.
 - Contributions to align it with the upstream PhysX 5.1.3 repository are welcome.
 
-After building the PhysX static libraries for your target platform, pass the local PhysX repository path to CMake using the `PHYSX_ROOT_DIR` variable.
+After building the PhysX static libraries for your target platform, head to the "phys-rs" folder, and pass the local PhysX repository path to CMake using the `PHYSX_ROOT_DIR` variable.
 
 ---
 
